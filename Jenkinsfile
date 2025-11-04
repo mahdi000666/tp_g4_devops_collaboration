@@ -4,7 +4,7 @@ options { timestamps() }
 stages {
 stage('Cloner le dépôt') {
 steps {
-git url: 'https://github.com/mahdi000666/tp_g4_devops_collaboration.git', branch: 'master'
+git url: 'https://github.com/mahdi000666/tp_g4_devops_collaboration.git', branch: 'main'
 }
 }
 stage('Étape 1 : Vérification du dépôt') {
